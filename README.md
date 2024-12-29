@@ -1,1 +1,61 @@
 # travel-in-pathumthani_bootstrap
+## Git command in this project
+- git clone https://github.com/k-winph/travel-in-pathumthani_bootstrap.git
+- git add .
+- git commit -m "init project"
+- git push
+- git add .
+- git commit -m "สร้าง html พื้นฐานของไฟล์ index"
+- git add .
+- git commit -m "เพิ่ม navbar ของ index"
+- git add .
+- commit -m "เพิ่ม styles พื้นฐาน และเรียกใช้งาน bootstrap5"
+- git add .
+- git commit -m "เพิ่มรูป logo"
+- git add .
+- git commit -m "เพิ่ม carousel slide และเรียกใช้ script"
+- git add .
+- git commit -m "เพิ่มรูปในหน้า index"
+- git add .
+- git commit -m "เพิ่ม css ในการจัดรูปให้เท่ากัน"
+- git add .
+- git commit -m "เพิ่มกล่อง overlay บน carousel"
+- git add .
+- git commit -m "เพิ่มเนื้อหาที่เหลือและส่วน footer"
+- git add .
+- git commit -m "จัดขนาดตัวหนังสือ และเรียกใช้ front"
+- git add .
+- git commit -m "สร้าง html พื้นฐานของไฟล์ about"
+- git add .
+- git commit -m "เพิ่ม navbar logo และเรียกใช้งาน css กับ font"
+- git add .
+- git commit -m "เพิ่มเนื้อหาส่วน main footer และเรียกใช้งาน script"
+- git add .
+- git commit -m "สร้าง html พื้นฐานของไฟล์ contact"
+- git add .
+- git commit -m "เพิ่ม navbar logo เรียกใช้งาน css กับ font และ footer"
+- git add .
+- git commit -m "เพิ่มเนื้อหาส่วน main"
+- git add .
+- git commit -m "เพิ่มกล่องมาครอบตัว form "
+- git add .
+- git commit -m "สร้าง html พื้นฐานของไฟล์ travel"
+- git add .
+- git commit -m "เพิ่ม navbar logo เรียกใช้งาน css กับ font และ footer"
+- git add .
+- git commit -m "เพิ่มเนื้อหาส่วน main"
+- git add .
+- git commit -m "เพิ่มรูป"
+- git add .
+- git commit -m "แก้ปัญหาการกดปุ่มไม่ติดของหน้าต่างๆ"
+- git add .
+- git commit -m "เพิ่ม transition ในไฟล์ styles"
+- git add .
+- git commit -m "ทำ reposive ของ tablet และ mobile ปรับขนาดตัวหนังสือ ปุ่ม และรูปภาพต่างๆ"
+- git add .
+- git commit -m "ใส่ที่มาของรูปภาพ"
+- git add .
+- git commit -m "เพิ่มไฟล์ screenshot"
+- git add .
+- git commit -m "README Update"
+- git push
