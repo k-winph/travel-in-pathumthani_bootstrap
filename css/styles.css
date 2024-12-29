@@ -1,0 +1,116 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.kanit-regular {
+    font-family: "Kanit", -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}  
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+    "header header header"
+    "main main main"
+    "footer footer footer";
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh; 
+}
+.header {
+    grid-area: header;
+    background: white;
+    color: white;  
+    width: 100%; 
+}
+.navbar {
+    grid-area: nav;
+    background: linear-gradient(45deg, #3544ca, #55aee5);
+    padding: 1rem;
+    width: 100%;
+    font-family: 'Kanit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin: 0;
+}
+.main {
+    grid-area: main;
+    background: rgba(255, 255, 255, 0);
+    padding: 1rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    line-height: 40px; 
+    flex: 1;
+}
+.footer {
+    grid-area: footer;
+    background: linear-gradient(45deg, #3544ca, #55aee5);
+    padding: 1rem;
+    color: white;
+    width: 100%;
+}
+
+nav {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {     
+    color: #fff;    
+    margin-right: 10px;
+    text-decoration: none;
+}  
+nav a:hover{
+    color: #ffffff;
+    margin-right: 10px; 
+    text-decoration: none;
+}
+nav a.active {     
+    padding: 7.5px 20px;
+    background-color: #ffffff;
+    color: #000000;
+    border: 2.5px solid #79ceff;
+    border-radius: 30px;
+    transition: background-color 0.3s, color 0.3s;
+    font-weight: bold;
+    text-align: center;
+}
+.active:hover {     
+    background-color: #d7d7d7;
+    color: #000000;
+}
+nav .nav-button {
+    padding: 7.5px 20px;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 30px;
+    transition: background-color 0.3s, color 0.3s;
+    font-weight: bold;
+}
+.nav-button:hover {
+    background-color: #d7d7d7;
+    color: #000000;
+}
+.search-bar {
+    max-width: 400px; 
+}
+nav .search-form {
+    padding: 7.5px 15px;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 20px;
+}
+nav .search-button {
+    padding: 7.5px 15px;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
