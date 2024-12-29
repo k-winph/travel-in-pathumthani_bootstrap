@@ -115,6 +115,30 @@ nav .search-button {
     transition: background-color 0.3s, color 0.3s;
 }
 
+
+a {
+    font-size: 16px;
+}
+.a-smaller {
+    font-size: 14px;
+}
+.a-bigger {
+    font-size: 18px;
+}
+p {
+    text-indent: 50px;
+    font-size: 16px
+}
+.i-bigger{
+    font-size: 30px;
+}
+.link{
+    color: #3544ca;
+}
+.link:hover{
+    color: #ca3535
+}
+
 .carousel-caption {
     background: rgba(255, 255, 255, 0.1); 
     backdrop-filter: blur(2px); 
