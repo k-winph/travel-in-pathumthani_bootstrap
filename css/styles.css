@@ -132,11 +132,11 @@ p {
 .i-bigger{
     font-size: 30px;
 }
-.link{
-    color: #3544ca;
-}
-.link:hover{
-    color: #ca3535
+
+.container-contact {
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 25px 50px;
 }
 
 .carousel-caption {
