@@ -164,3 +164,195 @@ p {
 .main {
     animation: fadeIn 1s ease-out;
 }
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-areas:
+        "header header"
+        "main main"
+        "footer footer";
+        grid-template-columns: 1fr 200px;
+    }
+
+    .header {
+        grid-area: header;
+        background: white;
+        color: white;  
+        width: 100%; 
+    }
+    .navbar {
+        grid-area: nav;
+        background: linear-gradient(45deg, #3544ca, #55aee5);
+        padding: 1rem;
+        width: 100%;
+        font-family: 'Kanit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;   
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        margin: 0;
+    }
+    .main {
+        grid-area: main;
+        background: rgba(255, 255, 255, 0);
+        padding: 1rem;
+        width: 100%;
+        margin: 0 auto;
+        line-height: 40px; 
+        flex: 1;
+    }
+
+    a {
+        font-size: 18px;
+    }
+    .a-smaller {
+        font-size: 14px;
+    }
+    .a-bigger {
+        font-size: 18px;
+    }
+    p {
+        text-indent: 50px;
+        font-size: 16px
+    }
+    .i-bigger{
+        font-size: 30px;
+    }
+
+    nav a {     
+        color: #fff;    
+        margin-right: 10px;
+        text-decoration: none; 
+    }  
+    nav a.active {     
+        display: block;
+        box-sizing: border-box;
+        border: 2px solid rgba(255, 255, 255, 0);
+        background-color: rgba(255, 255, 255, 0);
+        font-weight: bold;
+        color: #ffffff;
+        text-align: right;
+    }
+    nav .nav-button {
+        display: block;
+        box-sizing: border-box;
+        background-color: rgba(255, 255, 255, 0);
+        font-weight: normal;
+        color: #ffffff;
+        text-align: right;
+    }
+
+    .slide-frame{
+        height: 400px;
+    }
+    .image-frame {
+        height: 185px; 
+    }
+
+}
+
+@media (max-width: 480px) {
+    .grid-container {
+        grid-template-areas:
+        "header"
+        "main"
+        "footer";
+        grid-template-columns: 1fr;
+    }
+
+    .header {
+        grid-area: header;
+        background: white;
+        color: white;  
+        width: 100%; 
+    }
+    .navbar {
+        grid-area: nav;
+        background: linear-gradient(45deg, #3544ca, #55aee5);
+        padding: 1rem;
+        width: 100%;
+        font-family: 'Kanit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;   
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        margin: 0;
+    }
+    .main {
+        grid-area: main;
+        background: rgba(255, 255, 255, 0);
+        padding: 1rem;
+        width: 100%;
+        margin: 0 auto;
+        line-height: 40px; 
+        flex: 1;
+    }
+
+    .slide-frame{
+        height: 225px;
+    }
+    .image-frame {
+        height: 185px; 
+    }
+    
+    a {
+        font-size: 16px;
+    }
+    .a-smaller {
+        font-size: 14px;
+    }
+    .a-bigger {
+        font-size: 18px;
+    }
+    p {
+        text-indent: 50px;
+        font-size: 16px
+    }
+    .i-bigger{
+        font-size: 30px;
+    }
+
+    nav a {     
+        color: #fff;    
+        margin-right: 10px;
+        text-decoration: none; 
+    }  
+    nav a.active {     
+        display: block;
+        box-sizing: border-box;
+        border: 2px solid rgba(255, 255, 255, 0);
+        background-color: rgba(255, 255, 255, 0);
+        font-weight: bold;
+        color: #ffffff;
+        text-align: right;
+    }
+    nav .nav-button {
+        display: block;
+        box-sizing: border-box;
+        background-color: rgba(255, 255, 255, 0);
+        font-weight: normal;
+        color: #ffffff;
+        text-align: right;
+    }
+    
+    small{
+        display: none;
+    }
+
+    .search-bar {
+        max-width: 200px; 
+    }
+    nav .search-form {
+        padding: 7.5px 15px;
+        background-color: #ffffff;
+        color: #000000;
+        border-radius: 20px;
+    }
+    nav .search-button {
+        padding: 7.5px 15px;
+        background-color: #ffffff;
+        color: #000000;
+        border-radius: 20px;
+        transition: background-color 0.3s, color 0.3s;
+    }
+}
